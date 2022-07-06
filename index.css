@@ -1,0 +1,64 @@
+html{
+    overflow-x: hidden;
+}
+.box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bgrame{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./gambar/ikon\ sangin\ 1\ baw.jpg');
+    
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: montserrat;
+    src: url(./font/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: minecraft;
+    src: url(./font/minecraftia/Minecraftia-Regular.ttf);
+}
+body {
+    font-family: montserrat ;
+}
+.kotak{
+    display: flex;
+    flex-direction: row;
+}
+.kotak > *{
+    width: 100%
+}
+section {
+    padding: 20px 100px;
+    height: 100vh;
+}
+ol{
+    padding-top: 10px; list-style-position: inside;
+}
+.judulsection {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 30px; 
+    color: #518b63; 
+    padding: 20px;
+}
+.fotofoto {
+    display: flex;
+    flex-direction: row;
+}
+.fotofoto img {
+    width: 400px;
+}
+
